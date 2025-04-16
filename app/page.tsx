@@ -40,6 +40,9 @@ export default function Home() {
                 <p className="text-lg text-white/80">
                   <span className="font-semibold">Open for all students</span> at NIT Durgapur
                 </p>
+                <p className="text-lg text-white/80">
+                  <span className="font-semibold">Currently serving with limited menu, full menu will be available soon.</span>
+                </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild size="lg" className="bg-white text-red-600 hover:bg-white/90">
                     <Link href="/menu">View Menu</Link>
@@ -49,7 +52,7 @@ export default function Home() {
                   </Button>
                 </div>
               </div>
-              <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-xl overflow-hidden">
+              {/* <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-500/70 to-red-600/70 rounded-xl flex items-center justify-center p-8">
                   <div className="text-center space-y-4">
                     <h2 className="text-3xl font-bold">Today's Special</h2>
@@ -60,7 +63,7 @@ export default function Home() {
                     </p>
                     <Button className="bg-white text-red-600 hover:bg-white/90">Order Now</Button>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -143,7 +146,7 @@ export default function Home() {
         </section>
 
         {/* Quick Links */}
-        <section className="w-full py-12 md:py-16 bg-purple-50 dark:bg-purple-950/30">
+        {/* <section className="w-full py-12 md:py-16 bg-purple-50 dark:bg-purple-950/30">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tight text-purple-700 dark:text-purple-400 mb-8 text-center">
               Quick Links
@@ -217,7 +220,7 @@ export default function Home() {
               </Card>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
     </div>
   )
