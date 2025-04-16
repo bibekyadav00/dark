@@ -26,7 +26,7 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">
-                  Welcome to
+                  Welcome to{" "}
                   <span className="bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text">
                     HALL-12
                   </span>{" "}
@@ -48,7 +48,7 @@ export default function Home() {
                     <Link href="/menu">View Menu</Link>
                   </Button>
                   <Button asChild size="lg" className="bg-white text-red-600 hover:bg-white/90">
-                    <Link href="/offers">Special Offers</Link>
+                    <Link href="/offers">Offers</Link>
                   </Button>
                 </div>
               </div>
