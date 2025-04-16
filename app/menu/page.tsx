@@ -131,6 +131,32 @@ const currentmenu = [
     ],
   },
   {
+    name: "SNACKS",
+    items: [
+      
+      { name: "Samosa (1pc)", price: "10" },
+      { name: "Kachori (1pc)", price: "10" },      
+      { name: "Veg Pakora (1 plate)", price: "20" },
+      { name: "Onion Pakora (1 plate)", price: "20" },
+      { name: "Paneer Pakora (1 plate)", price: "30" },
+      { name: "Chicken Pakora (1 plate)", price: "40" },
+      { name: "Fish Fingers (1pc)", price: "30" },
+      { name: "Chicken Lollipop (1pc)", price: "25" },
+      { name: "Veg Chowmein", price: "40" },
+      { name: "Egg Chowmein", price: "50" },
+      { name: "Chicken Chowmein", price: "55" },
+      { name: "Egg Chicken Chowmein", price: "65" },
+      { name: "Egg Roll (single egg)", price: "30" },
+      { name: "Paneer Roll", price: "35" },
+      { name: "Chicken Roll", price: "35" },
+      { name: "Egg Chicken Roll", price: "45" },
+      { name: "Chicken Cheese Roll", price: "55" },
+      { name: "Cheese Maggi", price: "35" },
+      { name: "Egg bhujia/Poached Maggi", price: "35" },
+      
+    ],
+  },
+  {
     name: "DINNER",
     items: [
       
@@ -182,32 +208,7 @@ const currentmenu = [
       
     ],
   },
-  {
-    name: "SNACKS",
-    items: [
-      
-      { name: "Samosa (1pc)", price: "10" },
-      { name: "Kachori (1pc)", price: "10" },      
-      { name: "Veg Pakora (1 plate)", price: "20" },
-      { name: "Onion Pakora (1 plate)", price: "20" },
-      { name: "Paneer Pakora (1 plate)", price: "30" },
-      { name: "Chicken Pakora (1 plate)", price: "40" },
-      { name: "Fish Fingers (1pc)", price: "30" },
-      { name: "Chicken Lollipop (1pc)", price: "25" },
-      { name: "Veg Chowmein", price: "40" },
-      { name: "Egg Chowmein", price: "50" },
-      { name: "Chicken Chowmein", price: "55" },
-      { name: "Egg Chicken Chowmein", price: "65" },
-      { name: "Egg Roll (single egg)", price: "30" },
-      { name: "Paneer Roll", price: "35" },
-      { name: "Chicken Roll", price: "35" },
-      { name: "Egg Chicken Roll", price: "45" },
-      { name: "Chicken Cheese Roll", price: "55" },
-      { name: "Cheese Maggi", price: "35" },
-      { name: "Egg bhujia/Poached Maggi", price: "35" },
-      
-    ],
-  },
+  
 ]
 
 const menuCategories = [
