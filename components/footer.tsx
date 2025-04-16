@@ -10,7 +10,7 @@ export function Footer() {
               <span className="bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text">HALL-12</span>{" "}
               <span className="bg-gradient-to-r from-orange-400 to-red-600 text-transparent bg-clip-text">Canteen</span>
             </h3>
-            <p className="text-sm text-muted-foreground">Serving delicious food with love and care since 2010.</p>
+            <p className="text-sm text-muted-foreground">Good Food, Great Price, Clean Plate.</p>
             <div className="flex items-center space-x-3">
               <a href="#" className="text-muted-foreground hover:text-foreground">
                 <svg
@@ -25,7 +25,7 @@ export function Footer() {
                   strokeLinejoin="round"
                   className="h-5 w-5"
                 >
-                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  {/* <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
                 <span className="sr-only">Facebook</span>
               </a>
@@ -64,7 +64,7 @@ export function Footer() {
                   <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                 </svg>
                 <span className="sr-only">Instagram</span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="space-y-4">
