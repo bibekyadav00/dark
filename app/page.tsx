@@ -63,8 +63,8 @@ export default function Home() {
                     </p>
                     <Button className="bg-white text-red-600 hover:bg-white/90">Order Now</Button>
                   </div>
-                </div> */}
-              </div>
+                </div>
+              </div> */}
             </div>
           </div>
         </section>
