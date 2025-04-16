@@ -51,7 +51,7 @@ export default function FeedbackPage() {
     try {
       // Submit to Google Sheets
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxxhXw4hf_MiuE2eiAmxBTIlZvalrAPUtP_z_CCWaoU-UvtpaaBc2t6jTTxSdJ4pLz_/exec",
+        "https://script.google.com/macros/s/AKfycbw_aGMAwDnFAAEF2PAsivK-Q50RIMARMqNFyBG-73V8WAF-6J7aEQkdL8qxd48RwaQj/exec",
         {
           method: "POST",
           body: JSON.stringify(values),
@@ -132,7 +132,7 @@ export default function FeedbackPage() {
             <MessageSquare className="h-12 w-12" />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">Your Feedback Matters</h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-[700px]">
-              Help us improve your experience at HALL-12 Canteen
+              Feedback is taken seriously.
             </p>
           </div>
         </div>

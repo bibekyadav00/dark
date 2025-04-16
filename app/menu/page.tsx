@@ -16,10 +16,10 @@ export default function MenuPage() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-amber-500 to-orange-600 text-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">Our Menu</h1>
-            <p className="text-xl md:text-2xl text-white/90 max-w-[700px]">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">Full Menu</h1>
+            {/* <p className="text-xl md:text-2xl text-white/90 max-w-[700px]">
               Explore our wide range of delicious food and beverages
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -29,7 +29,7 @@ export default function MenuPage() {
           <Tabs defaultValue="categories" className="w-full">
             <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8">
               <TabsTrigger value="categories">Categories</TabsTrigger>
-              <TabsTrigger value="pdf">PDF Menu</TabsTrigger>
+              {/* <TabsTrigger value="pdf">PDF Menu</TabsTrigger> */}
             </TabsList>
             <TabsContent value="pdf" className="w-full">
               <div className="flex justify-center">
