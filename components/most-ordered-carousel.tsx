@@ -106,7 +106,7 @@ const mostOrderedItems = [
     price: 50,
     rating: 5,
     reviews: 124,
-    image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=300&auto=format&fit=crop",
+    image: "images/paneer-butter-masala.jpg",
     badge: "Bestseller",
   },
   {
@@ -115,7 +115,7 @@ const mostOrderedItems = [
     price: 130,
     rating: 5,
     reviews: 98,
-    image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=300&auto=format&fit=crop",
+    image: "images/mutton-biryani.jpg",
     badge: "Sunday Special",
   },
   {
@@ -124,7 +124,7 @@ const mostOrderedItems = [
     price: 50,
     rating: 4,
     reviews: 87,
-    image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=300&auto=format&fit=crop",
+    image: "images/chicken-kasa.jpg",
   },
   {
     name: "Chilli Chicken 6pcs",
@@ -132,7 +132,7 @@ const mostOrderedItems = [
     price: 80,
     rating: 5,
     reviews: 76,
-    image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=300&auto=format&fit=crop",
+    image: "images/chicken-chilli.jpeg",
     badge: "Popular",
   },
   {
@@ -141,6 +141,6 @@ const mostOrderedItems = [
     price: 80,
     rating: 4,
     reviews: 65,
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=300&auto=format&fit=crop",
+    image: "images/chickenegg-fried-rice.jpg",
   },
 ]

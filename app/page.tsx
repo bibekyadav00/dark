@@ -104,7 +104,7 @@ export default function Home() {
         {/* Location Section */}
         <section className="w-full py-12 md:py-16 bg-green-50 dark:bg-green-950/30">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tight text-green-700 dark:text-green-400 mb-8">Find Us</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-green-700 dark:text-green-400 mb-8">Locate</h2>
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
@@ -118,7 +118,7 @@ export default function Home() {
                   <Clock className="h-6 w-6 text-green-600 dark:text-green-400 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-xl font-semibold">Opening Hours</h3>
-                    <p className="text-gray-600 dark:text-gray-400">Monday - Sunday: 7:00 AM - 10:00 PM</p>
+                    <p className="text-gray-600 dark:text-gray-400">7:00 AM - 10:00 PM</p>
                   </div>
                 </div>
                 <Button

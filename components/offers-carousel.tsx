@@ -112,7 +112,7 @@ const offers = [
     validTill: "Limited Time",
     originalPrice: "₹160",
     offerPrice: "₹150",
-    image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d6?q=80&w=500&auto=format&fit=crop",
+    image: "/images/chicken-combo.jpg",
     isNew: true,
   },
   {
@@ -125,11 +125,11 @@ const offers = [
     image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?q=80&w=500&auto=format&fit=crop",
     isNew: true,
   },
-  {
-    title: "Weekend Special",
-    description: "Special weekend brunch menu with complimentary dessert",
-    badge: "Weekends Only",
-    validTill: "Ongoing",
-    image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?q=80&w=500&auto=format&fit=crop",
-  },
+  // {
+  //   title: "Weekend Special",
+  //   description: "Special weekend brunch menu with complimentary dessert",
+  //   badge: "Weekends Only",
+  //   validTill: "Ongoing",
+  //   image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?q=80&w=500&auto=format&fit=crop",
+  // },
 ]
