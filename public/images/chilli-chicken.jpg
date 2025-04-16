@@ -1,0 +1,237 @@
+1) Remove Name , email phone no section , minimize the no of contents in feedback form , use star ratings 
+2) Remove cards Why your feedback matters , What happens next, Frequently asked qsns.
+3) Location : Hall-12, Ground Floor , NIT Durgapur
+4) Mention Open for all the students 
+5) Remove Contact in footer section
+6) Place icons in about section in footer like email icon
+7) Images are not been loaded . Use relevant images from internet all over 
+8) in header put gradient contrasting color for HALL-12 Canteen . Use different colors for Hall-12 and canteen separately.
+9) Use Rupee icon Infront for price;
+10) OFFERS SECTION 
+title: "Chinese Combo",
+description: "Chilli Paneer with Fried Rice",
+originalPrice: "₹120",
+offerPrice: "₹100",
+image: "/images/paneer-fried.jpg",
+isNew: true,
+
+title: "Dinner Combo",
+description: "Chicken Kasa (Full) with 7 parathas",
+originalPrice: "₹160",
+offerPrice: "₹150",
+image: "/images/chicken-combo.jpg",
+isNew: true,
+
+title: "Chinese Combo",
+description: "Hakka Noodles with Chilli Chicken",
+originalPrice: "₹130",
+offerPrice: "₹100",
+image: "/images/hakka-chilli.jpg",
+isNew: true,
+
+
+11) Most Ordered
+name: "Paneer Butter Masala",
+description: "Creamy and rich paneer dish cooked in a buttery tomato gravy",
+image: "/images/paneer-butter-masala.jpg",
+price: "₹50",
+
+name: "Mutton Biryani @SUNDAY",
+description: "Aromatic basmati rice layered with tender mutton pieces and spices",
+image: "/images/chicken-biryani.jpg",
+price: "₹130",
+
+name: "Chicken Kasa",
+description: "Spicy chicken curry with a blend of traditional spices",
+image: "/images/chicken-kasa.jpg",
+price: "₹50",
+
+name: "Chilli Chicken 6pcs",
+description: "Spicy and tangy chicken starter with bell peppers and onions",
+image: "/images/chilli-chicken.jpg",
+price: "₹80",
+
+name: "Chicken Egg Fried Rice",
+description: "Delicious fried rice with chicken and scrambled eggs",
+image: "/images/chickenegg-fried-rice.jpg",
+price: "₹80",
+
+
+
+13)Menu items
+
+  
+BREAKFAST 
+
+Puri Sabzi (4 poori) – ₹20  
+Bread Omelette – ₹30  
+Omelette (2 eggs) – ₹25  
+Plain Maggi – ₹25  
+Aloo Paratha (1pc) – ₹15  
+CornFlakes with milk – ₹25  
+Poha – ₹30  
+Upma (Suji/Sewai) – ₹30  
+Utthapam (3pc) – ₹25  
+Plain Dosa – ₹40  
+Masala Dosa – ₹50  
+Idli (3pc) – ₹25  
+Pasta – ₹20  
+Chola Bhatura (2pc) – ₹30  
+Sandwich (veg) – ₹20  
+Tea/Coffee/milk – ₹10  
+
+MUTTON
+
+Mutton Kosha (2pcs) – ₹120  
+Mutton Curry(2pc) – ₹120  
+Mutton Keema – ₹180  
+Mutton Kaleeji – ₹120  
+Mutton Biryani (Sunday) – ₹130  
+
+STARTERS
+
+Paneer Tikka (6pc) – ₹80  
+Chilly Paneer (6pc) – ₹80  
+Veg Manchurian (6pc) – ₹60  
+Pappad (2pc) – ₹12  
+Green Salad – ₹20  
+Chilly Chicken (6pc) – ₹80  
+Chicken 65 (8pc) – ₹90  
+Chicken Tikka (8pc) – ₹100  
+Chicken Manchurian (6pc) – ₹70  
+
+BIRYANI & SPECIAL RICE
+
+Plain Rice – ₹30  
+Jeera Rice – ₹35  
+Pulao (Veg, Non-Veg) – ₹50  
+Veg Fried Rice – ₹60  
+Egg Fried Rice – ₹65  
+Chicken Fried Rice – ₹70  
+Mixed Fried Rice – ₹80  
+Veg Biryani with paneer – ₹70  
+Chicken Biryani – ₹100  
+Mutton Biryani (Sunday) – ₹130  
+Veg Meal (Miniket Rice) – ₹40  
+Veg Meal (Basmati Rice) – ₹45  
+Egg Meal (Miniket Rice) – ₹50  
+Egg Meal (Basmati Rice) – ₹55  
+Chicken Meal (Miniket Rice) – ₹60  
+Chicken Meal (Basmati Rice) – ₹65  
+
+VEG MAIN COURSE
+
+Dal Tadka/Dal Fry – ₹30  
+Chana Masala – ₹30  
+Mixed Veg – ₹30  
+Bhindi Fry – ₹30  
+Gobi Aloo – ₹25  
+Capsicum Aloo – ₹30  
+Aloo Matar – ₹30  
+Rajma Masala – ₹30  
+Mushroom Butter Masala – ₹90  
+Veg Manchurian Gravy – ₹60  
+Kadhai Paneer – ₹65  
+Saahi Paneer – ₹75  
+Matar Paneer – ₹65  
+Palak Paneer – ₹60  
+Butter Paneer Masala – ₹50  
+Paneer Bhurji – ₹70  
+Tandoori Paneer Masala – ₹70  
+Paneer Tikka Masala – ₹70  
+Chilli Paneer Gravy – ₹80  
+
+CHICKEN MAIN COURSE
+
+Chicken Bharta (half/full) – ₹50/90  
+Chicken Kasa (half/full) – ₹50/90  
+Butter Chicken (half/full) – ₹50/90  
+Kadhai Chicken (half/full) – ₹50/90  
+Hyd. Chicken (Half/Full) – ₹50/90  
+Chicken Curry (Half/Full) – ₹50/90  
+Tandoori Chicken – ₹80  
+Chicken Tikka Masala – ₹85  
+Garlic Chicken – ₹75  
+Lemon Chicken – ₹75  
+Chicken Stew – ₹30  
+
+FISH & EGGS
+
+Fish Curry (1pc) – ₹25  
+Fish Fry (1pc) – ₹25  
+Pomfret Masala (1pc) – ₹150  
+Sorse Illish (1pc) – ₹250  
+Egg Curry (2pc) – ₹25  
+Egg Kossa (2pc) – ₹25  
+Egg Bharta (2pc) – ₹25  
+Egg Bhujia/Bhurji – ₹30  
+Boiled egg Bhurji – ₹30  
+Egg Masala – ₹25  
+Egg Tadka – ₹35  
+
+DRINKS & DESSERTS
+
+COLD DRINKS – MRP  
+Curd (Sweet, Plain) – MRP  
+ICE-CREAM – MRP  
+Lassi – ₹30  
+Brownie – Varies  
+Pastry – Varies  
+Juices – Varies  
+Sweets – Varies  
+Chocolate pancake – Varies  
+Banana pancake – Varies  
+
+ROTI & PARATHAS
+
+Tawa Roti (100% Atta) – ₹5  
+Tawa Roti Butter – ₹8  
+Tandoori Roti (1pc) – ₹10  
+Tandoori Butter Roti – ₹13  
+Tandoori Naan (1pc) – ₹20  
+Tandoori Butter Naan (1pc) – ₹23  
+Plain Paratha (1pc) – ₹10  
+Laccha Paratha (1pc) – ₹15  
+Paneer Paratha – ₹20  
+Sattu Paratha – ₹15  
+Chicken Paratha – ₹25  
+Aloo Paratha – ₹15  
+Onion Paratha – ₹15  
+
+
+ROLLS & SANDWICH
+
+Veg Chowmein – ₹40  
+Egg Chowmein – ₹50  
+Chicken Chowmein – ₹55  
+Egg Chicken Chowmein – ₹65  
+Egg Roll (single egg) – ₹30  
+Paneer Roll – ₹35  
+Chicken Roll – ₹35  
+Egg Chicken Roll – ₹45  
+Chicken Cheese Roll – ₹55  
+Paneer Sandwich – ₹50  
+Corn Cheese Sandwich – ₹50  
+Chicken Sandwich – ₹50  
+Chicken Cheese Sandwich – ₹60  
+Cheese Maggi – ₹35  
+Egg bhujia/Poached Maggi – ₹35  
+
+SNACKS
+
+Veg Burger – ₹60  
+Chicken Burger – ₹75  
+French fry – ₹50  
+Samosa (1pc) – ₹10  
+Kachori (1pc) – ₹10  
+Veg Pizza – ₹100  
+Chicken Pizza – ₹120  
+Veg Pakora (1 plate) – ₹20  
+Onion Pakora (1 plate) – ₹20  
+Paneer Pakora (1 plate) – ₹30  
+Chicken Pakora (1 plate) – ₹40  
+Fish Fingers (1pc) – ₹30  
+Chicken Lollipop (1pc) – ₹25  
+Pav Bhaji (1 plate) – ₹40  
+
+
