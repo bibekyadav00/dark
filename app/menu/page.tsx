@@ -106,9 +106,7 @@ const currentmenu = [
       { name: "Bread Omelette", price: "30" },
       { name: "Omelette (2 eggs)", price: "25" },
       { name: "Tea/Coffee/milk", price: "10" },
-      { name: "Mutton Kosha (2pcs)", price: "120" },
-      { name: "Mutton Curry(2pc)", price: "120" },
-      { name: "Mutton Biryani (Sunday)", price: "130" },
+      
     ],
   },
   
@@ -171,6 +169,9 @@ const currentmenu = [
       { name: "Butter Paneer Masala", price: "50" },
       { name: "Chilli Paneer Gravy", price: "80" },
       { name: "Paneer Bhurji", price: "70" },
+      { name: "Mutton Kosha (2pcs) (Sunday)", price: "120" },
+      { name: "Mutton Curry(2pc) (Sunday)", price: "120" },
+      { name: "Mutton Biryani (Sunday)", price: "130" },
     ],
   },
   
