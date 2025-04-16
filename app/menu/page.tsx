@@ -17,9 +17,9 @@ export default function MenuPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">Menu</h1>
-            {/* <p className="text-xl md:text-2xl text-white/90 max-w-[700px]">
-              Explore our wide range of delicious food and beverages
-            </p> */}
+            <p className="text-xl md:text-2xl text-white/90 max-w-[700px]">
+            Currently serving with limited menu, full menu will be available soon.
+            </p>
           </div>
         </div>
       </section>
