@@ -100,7 +100,7 @@ const mostOrderedItems = [
     name: "Mutton Biryani @SUNDAY",
     description: "Aromatic basmati rice layered with tender mutton pieces and spices",
     price: 130,
-    image: "/images/mutton-biryani.jpg",
+    image: "/images/Mutton-Biryani.jpg",
     badge: "Sunday Special",
   },
   {
@@ -113,13 +113,13 @@ const mostOrderedItems = [
     name: "Chilli Chicken 6pcs",
     description: "Spicy and tangy chicken starter with bell peppers and onions",
     price: 80,
-    image: "/images/chicken-chilli.jpeg",
+    image: "/images/chilli-chicken.jpeg",
     badge: "Popular",
   },
   {
     name: "Chicken Egg Fried Rice",
     description: "Delicious fried rice with chicken and scrambled eggs",
     price: 80,
-    image: "/images/chickenegg-fried-rice.jpg",
+    image: "/images/chickenegg-fried.jpg.webp",
   },
 ]
