@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react"
 import Image from "next/image"
 import useEmblaCarousel from "embla-carousel-react"
-import { ChevronLeft, ChevronRight, Star, IndianRupee } from "lucide-react"
+import { ChevronLeft, ChevronRight, IndianRupee } from "lucide-react"
 
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -52,18 +52,7 @@ export function MostOrderedCarousel() {
                 <CardContent className="p-4">
                   <h3 className="font-bold text-lg mb-1">{item.name}</h3>
                   <p className="text-sm text-muted-foreground mb-2">{item.description}</p>
-                  <div className="flex justify-between items-center">
-                    <div className="flex items-center">
-                      {Array(5)
-                        .fill(0)
-                        .map((_, i) => (
-                          <Star
-                            key={i}
-                            className={`h-4 w-4 ${i < item.rating ? "fill-yellow-400 text-yellow-400" : "text-gray-300 dark:text-gray-600"}`}
-                          />
-                        ))}
-                      <span className="text-xs ml-1 text-muted-foreground">({item.reviews})</span>
-                    </div>
+                  <div className="flex justify-end">
                     <span className="font-bold flex items-center">
                       <IndianRupee className="h-4 w-4 mr-1" />
                       {item.price}
@@ -104,43 +93,33 @@ const mostOrderedItems = [
     name: "Paneer Butter Masala",
     description: "Creamy and rich paneer dish cooked in a buttery tomato gravy",
     price: 50,
-    rating: 5,
-    reviews: 124,
-    image: "images/paneer-butter-masala.jpg",
+    image: "/images/paneer-butter-masala.jpg",
     badge: "Bestseller",
   },
   {
     name: "Mutton Biryani @SUNDAY",
     description: "Aromatic basmati rice layered with tender mutton pieces and spices",
     price: 130,
-    rating: 5,
-    reviews: 98,
-    image: "images/mutton-biryani.jpg",
+    image: "/images/mutton-biryani.jpg",
     badge: "Sunday Special",
   },
   {
     name: "Chicken Kasa",
     description: "Spicy chicken curry with a blend of traditional spices",
     price: 50,
-    rating: 4,
-    reviews: 87,
-    image: "images/chicken-kasa.jpg",
+    image: "/images/chicken-kasa.jpg",
   },
   {
     name: "Chilli Chicken 6pcs",
     description: "Spicy and tangy chicken starter with bell peppers and onions",
     price: 80,
-    rating: 5,
-    reviews: 76,
-    image: "images/chicken-chilli.jpeg",
+    image: "/images/chicken-chilli.jpeg",
     badge: "Popular",
   },
   {
     name: "Chicken Egg Fried Rice",
     description: "Delicious fried rice with chicken and scrambled eggs",
     price: 80,
-    rating: 4,
-    reviews: 65,
-    image: "images/chickenegg-fried-rice.jpg",
+    image: "/images/chickenegg-fried-rice.jpg",
   },
 ]
