@@ -38,7 +38,7 @@ export default function Home() {
                   Delicious food, great ambiance, and affordable prices!
                 </p> */}
                 <p className="text-lg text-white/80">
-                  <span className="font-semibold">Open for all students</span> at NIT Durgapur
+                  <span className="font-semibold">Open for all the students</span> at NIT Durgapur
                 </p>
                
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -116,7 +116,7 @@ export default function Home() {
                   <Clock className="h-6 w-6 text-green-600 dark:text-green-400 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-xl font-semibold">Opening Hours</h3>
-                    <p className="text-gray-600 dark:text-gray-400">7:00 AM - 10:00 PM</p>
+                    <p className="text-gray-600 dark:text-gray-400">Everyday | 7:00 AM - 10:00 PM</p>
                   </div>
                 </div>
                 <Button

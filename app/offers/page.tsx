@@ -67,7 +67,7 @@ export default function OffersPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center mb-8">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Combo Deals</h2>
-            <p className="text-xl text-gray-600 max-w-[700px]">Get more for less with our special combo offers</p>
+            {/* <p className="text-xl text-gray-600 max-w-[700px]">Get more for less with our special combo offers</p> */}
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -152,35 +152,33 @@ const offers = [
 
 const combos = [
   {
-    name: "Breakfast Combo",
-    description: "Paratha + Tea + Boiled Egg",
-    price: 60,
-    originalPrice: 80,
-    saving: 25,
-    image: "/placeholder.svg?height=150&width=200",
+    title: "Chinese Combo",
+    description: "Chilli Paneer with Fried Rice",
+    badge: "Special Offer",
+    validTill: "Limited Time",
+    originalPrice: "₹120",
+    offerPrice: "₹100",
+    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=500&auto=format&fit=crop",
+    isNew: true,
   },
   {
-    name: "Lunch Special",
-    description: "Rice + Dal + 2 Sabzi + Roti + Salad",
-    price: 120,
-    originalPrice: 150,
-    saving: 20,
-    image: "/placeholder.svg?height=150&width=200",
+    title: "Dinner Combo",
+    description: "Chicken Kasa (Full) with 7 parathas",
+    badge: "Best Value",
+    validTill: "Limited Time",
+    originalPrice: "₹160",
+    offerPrice: "₹150",
+    image: "/images/chicken-combo.jpg",
+    isNew: true,
   },
   {
-    name: "Evening Snack",
-    description: "Samosa (2) + Tea + Biscuits",
-    price: 50,
-    originalPrice: 65,
-    saving: 23,
-    image: "/placeholder.svg?height=150&width=200",
-  },
-  {
-    name: "Dinner Deluxe",
-    description: "Rice + Dal + 2 Sabzi + Roti + Sweet",
-    price: 140,
-    originalPrice: 180,
-    saving: 22,
-    image: "/placeholder.svg?height=150&width=200",
+    title: "Chinese Combo",
+    description: "Hakka Noodles with Chilli Chicken",
+    badge: "Popular",
+    validTill: "Limited Time",
+    originalPrice: "₹130",
+    offerPrice: "₹100",
+    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?q=80&w=500&auto=format&fit=crop",
+    isNew: true,
   },
 ]
