@@ -22,7 +22,7 @@ export default function OffersPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-16 bg-gray-50">
+      {/* <section className="w-full py-12 md:py-16 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {offers.map((offer, index) => (
@@ -61,7 +61,7 @@ export default function OffersPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="w-full py-12 md:py-16 bg-gradient-to-r from-yellow-100 to-orange-100">
         <div className="container px-4 md:px-6">
