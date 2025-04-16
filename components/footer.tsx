@@ -13,7 +13,7 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">Good Food, Great Price, Clean Plate.</p>
             <div className="flex items-center space-x-3">
               <a href="#" className="text-muted-foreground hover:text-foreground">
-                <svg
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -24,7 +24,7 @@ export function Footer() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   className="h-5 w-5"
-                >
+                > */}
                   {/* <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
                 <span className="sr-only">Facebook</span>
