@@ -29,7 +29,7 @@ export default function Home() {
                   Welcome to{" "}
                   <span className="bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text">
                     HALL-12
-                  </span>{" "}
+                  </span>
                   <span className="bg-gradient-to-r from-orange-400 to-red-600 text-transparent bg-clip-text">
                     Canteen
                   </span>
