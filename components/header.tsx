@@ -72,7 +72,7 @@ export function Header() {
                 Menu
               </Link>
               <Link
-                href="/offers"
+                href="/collection"
                 className="text-base font-medium transition-colors hover:text-primary"
                 onClick={() => setIsOpen(false)}
               >
