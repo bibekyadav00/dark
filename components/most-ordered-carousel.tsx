@@ -111,6 +111,13 @@ const mostOrderedItems = [
     badge: "Popular",
   },
   {
+    name: "Mutton Curry @SATURDAY",
+    description: "Tender mutton cooked in a rich, flavorful gravy with traditional spices.",
+    price: 120,
+    image: "/images/mutton-curry.jpg",
+    badge: "Weekend Special",
+  },
+  {
     name: "Chilli Chicken 6pcs",
     description: "Spicy and tangy chicken starter with bell peppers and onions",
     price: 80,
@@ -118,16 +125,19 @@ const mostOrderedItems = [
     badge: "Popular",
   },
   {
+    name: "Dal Tadka",
+    description: "",
+    price: 80,
+    image: "/images/dal-tadka.jpeg",
+    
+  },
+
+  {
     name: "Chicken Egg Fried Rice",
     description: "Delicious fried rice with chicken and scrambled eggs",
     price: 80,
     image: "/images/chicken-egg-friedrice.jpg",
   },
-  {
-    name: "Mutton Curry @SATURDAY",
-    description: "Tender mutton cooked in a rich, flavorful gravy with traditional spices.",
-    price: 120,
-    image: "/images/mutton-curry.jpg",
-    badge: "Weekend Special",
-  },
+  
+  
 ]
