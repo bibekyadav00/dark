@@ -153,36 +153,29 @@ const offers = [
 const combos = [
   {
     name: "Chinese Combo",
-    description: "Chilli Paneer with Fried Riceg",
-    price: 60,
-    originalPrice: 80,
-    saving: 25,
-    image: "/placeholder.svg?height=150&width=200",
-  },
-  {
-    name: "Lunch Special",
-    description: "Rice + Dal + 2 Sabzi + Roti + Salad",
+    description: "Chilli Paneer with Fried Rice",
     price: 120,
+    originalPrice: 100,
+    // saving: 25,
+    image: "/placeholder.svg?height=150&width=200",
+  },
+  {
+    name: "Dinner Combo",
+    description: "Chicken Kasa (Full) with 7 parathas",
+    price: 160,
     originalPrice: 150,
-    saving: 20,
+    // saving: 20,
     image: "/placeholder.svg?height=150&width=200",
   },
   {
-    name: "Evening Snack",
-    description: "Samosa (2) + Tea + Biscuits",
-    price: 50,
-    originalPrice: 65,
-    saving: 23,
+    name: "Chinese Combo",
+    description: "Hakka Noodles with Chilli Chicken",
+    price: 130,
+    originalPrice: 100,
+    // saving: 25,
     image: "/placeholder.svg?height=150&width=200",
   },
-  {
-    name: "Dinner Deluxe",
-    description: "Rice + Dal + 2 Sabzi + Roti + Sweet",
-    price: 140,
-    originalPrice: 180,
-    saving: 22,
-    image: "/placeholder.svg?height=150&width=200",
-  },
+ 
 ]
 
 // {

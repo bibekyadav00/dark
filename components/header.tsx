@@ -30,7 +30,7 @@ export function Header() {
             Offers
           </Link> */}
           <Link href="/offers" className="text-sm font-medium transition-colors hover:text-primary">
-            Gallery
+            Collection
           </Link>
           <Link href="/feedback" className="text-sm font-medium transition-colors hover:text-primary">
             Feedback
