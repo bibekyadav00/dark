@@ -126,7 +126,7 @@ const mostOrderedItems = [
   },
   {
     name: "Dal Tadka",
-    description: "",
+    description: "Flavorful lentils tempered with tadka and spices.",
     price: 80,
     image: "/images/dal-tadka.jpg",
     
