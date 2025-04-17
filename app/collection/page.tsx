@@ -4,27 +4,27 @@ import { ThumbnailGallery } from "@/components/thumbnail-gallery"
 
 const images = [
   {
-    src: "/images/pics/canteen-entrance.png",
+    src: "/images/pics/canteen-entrance.jpeg",
     alt: "Canteen entrance decorated with marigold garlands",
   },
   {
-    src: "/images/pics/group-photo-1.png",
+    src: "/images/pics/group-photo-1.jpeg",
     alt: "Group photo of canteen staff and visitors",
   },
   {
-    src: "/images/pics/group-photo-2.png",
+    src: "/images/pics/group-photo-2.jpeg",
     alt: "Group photo of canteen staff and visitors",
   },
   {
-    src: "/images/pics/ribbon-cutting.png",
+    src: "/images/pics/ribbon-cutting.jpeg",
     alt: "Ribbon cutting ceremony at the canteen",
   },
   {
-    src: "/images/pics/group-photo-3.png",
+    src: "/images/pics/group-photo-3.jpeg",
     alt: "Group photo of canteen staff and visitors",
   },
   {
-    src: "/images/pics/group-photo-4.png",
+    src: "/images/pics/group-photo-4.jpeg",
     alt: "Group photo of canteen staff and visitors",
   },
 ]
@@ -65,7 +65,7 @@ export default function CollectionPage() {
                 <div className="overflow-hidden rounded-lg bg-white p-4 shadow-md transition-transform hover:scale-105">
                   <div className="relative aspect-video overflow-hidden rounded-md">
                     <NextImage
-                      src="/images/canteen-entrance.png"
+                      src="/images/pics/canteen-entrance.jpeg"
                       alt="Canteen entrance"
                       fill
                       className="object-cover"
@@ -77,7 +77,7 @@ export default function CollectionPage() {
                 <div className="overflow-hidden rounded-lg bg-white p-4 shadow-md transition-transform hover:scale-105">
                   <div className="relative aspect-video overflow-hidden rounded-md">
                     <NextImage
-                      src="/images/ribbon-cutting.png"
+                      src="/images/pics/ribbon-cutting.jpeg"
                       alt="Ribbon cutting ceremony"
                       fill
                       className="object-cover"
@@ -88,7 +88,7 @@ export default function CollectionPage() {
                 </div>
                 <div className="overflow-hidden rounded-lg bg-white p-4 shadow-md transition-transform hover:scale-105">
                   <div className="relative aspect-video overflow-hidden rounded-md">
-                    <NextImage src="/images/group-photo-1.png" alt="Group photo" fill className="object-cover" />
+                    <NextImage src="/images/pics/group-photo-1.jpeg" alt="Group photo" fill className="object-cover" />
                   </div>
                   <h3 className="mt-4 font-medium">Our Community</h3>
                   <p className="text-sm text-muted-foreground">The wonderful people who make our canteen special</p>
