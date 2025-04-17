@@ -87,7 +87,8 @@ export default function OffersPage() {
                       )}
                     </div>
                     <Badge variant="outline" className="bg-orange-100 text-orange-800 border-orange-200">
-                      Save {combo.saving}%
+                      {/* Save {combo.saving}% */}
+                      Deal
                     </Badge>
                   </div>
                 </CardContent>
