@@ -37,8 +37,8 @@ export default function Home() {
                 {/* <p className="text-xl md:text-2xl text-white/90">
                   Delicious food, great ambiance, and affordable prices!
                 </p> */}
-                 <h1 className="text-lg text-white/80">
-                  <span className="font-bold">By</span> Delicious Kitchen
+                 <h1 className="text-lg font-bold text-white/80">
+                  By Delicious Kitchen
                 </h1>
                 <p className="text-lg text-white/80">
                   <span className="font-semibold">Open for all the students</span> at NIT Durgapur
