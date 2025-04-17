@@ -157,7 +157,7 @@ const combos = [
     price: 120,
     originalPrice: 100,
     // saving: 25,
-    image: "/placeholder.svg?height=150&width=200",
+    image: "/images/chillipaneer-friedrice.jpg",
   },
   {
     name: "Dinner Combo",
@@ -165,7 +165,7 @@ const combos = [
     price: 160,
     originalPrice: 150,
     // saving: 20,
-    image: "/placeholder.svg?height=150&width=200",
+    image: "/images/kasa-paratha.jpg",
   },
   {
     name: "Chinese Combo",
@@ -173,7 +173,7 @@ const combos = [
     price: 130,
     originalPrice: 100,
     // saving: 25,
-    image: "/placeholder.svg?height=150&width=200",
+    image: "/images/chillichicken-noodles.jpg",
   },
  
 ]

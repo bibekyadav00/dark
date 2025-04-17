@@ -102,7 +102,7 @@ const offers = [
     validTill: "Limited Time",
     originalPrice: "₹120",
     offerPrice: "₹100",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=500&auto=format&fit=crop",
+    image: "/images/chillipaneer-friedrice.jpg",
     isNew: true,
   },
   {
@@ -112,7 +112,7 @@ const offers = [
     validTill: "Limited Time",
     originalPrice: "₹160",
     offerPrice: "₹150",
-    image: "/images/chicken-combo.jpg",
+    image: "/images/kasa-paratha.jpg",
     isNew: true,
   },
   {
@@ -122,7 +122,7 @@ const offers = [
     validTill: "Limited Time",
     originalPrice: "₹130",
     offerPrice: "₹100",
-    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?q=80&w=500&auto=format&fit=crop",
+    image: "/images/chillichicken-noodles.jpg",
     isNew: true,
   },
   // {

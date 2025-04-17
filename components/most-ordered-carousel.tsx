@@ -94,20 +94,21 @@ const mostOrderedItems = [
     description: "Creamy and rich paneer dish cooked in a buttery tomato gravy",
     price: 50,
     image: "/images/paneer-butter-masala.jpg",
-    badge: "Bestseller",
+    
   },
   {
-    name: "Mutton Biryani @SUNDAY",
-    description: "Aromatic basmati rice layered with tender mutton pieces and spices",
-    price: 130,
-    image: "/images/Mutton-Biryani.jpg",
-    badge: "Sunday Special",
+    name: "Chicken Biryani",
+    description: "Aromatic basmati rice layered with tender chicken pieces and spices",
+    price: 100,
+    image: "/images/chicken-biryani.jpg",
+    
   },
   {
     name: "Chicken Kasa",
     description: "Spicy chicken curry with a blend of traditional spices",
     price: 50,
-    image: "/images/chicken-kasa.jpg",
+    image: "/images/chicken-kassa.jpg",
+    badge: "Popular",
   },
   {
     name: "Chilli Chicken 6pcs",
@@ -120,6 +121,13 @@ const mostOrderedItems = [
     name: "Chicken Egg Fried Rice",
     description: "Delicious fried rice with chicken and scrambled eggs",
     price: 80,
-    image: "/images/chickenegg-fried.jpg.webp",
+    image: "/images/chicken-egg-friedrice.jpg",
+  },
+  {
+    name: "Mutton Curry @SATURDAY",
+    description: "",
+    price: 120,
+    image: "/images/mutton-curry.jpg",
+    badge: "Weekend Special",
   },
 ]

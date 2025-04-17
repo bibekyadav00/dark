@@ -37,9 +37,9 @@ export default function Home() {
                 {/* <p className="text-xl md:text-2xl text-white/90">
                   Delicious food, great ambiance, and affordable prices!
                 </p> */}
-                 <h3 className="text-lg text-white/80">
+                 <h1 className="text-lg text-white/80">
                   <span className="font-bold">By</span> Delicious Kitchen
-                </h3>
+                </h1>
                 <p className="text-lg text-white/80">
                   <span className="font-semibold">Open for all the students</span> at NIT Durgapur
                 </p>
@@ -53,7 +53,7 @@ export default function Home() {
                   </Button>
                 </div>
               </div>
-              <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-xl overflow-hidden">
+              {/* <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-500/70 to-red-600/70 rounded-xl flex items-center justify-center p-8">
                   <div className="text-center space-y-4">
                     <h2 className="text-3xl font-bold">Opening Offer</h2>
@@ -65,7 +65,7 @@ export default function Home() {
                     <Button className="bg-white text-red-600 hover:bg-white/90">Visit Today</Button>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
