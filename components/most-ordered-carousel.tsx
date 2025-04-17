@@ -128,7 +128,7 @@ const mostOrderedItems = [
     name: "Dal Tadka",
     description: "",
     price: 80,
-    image: "/images/dal-tadka.jpeg",
+    image: "/images/dal-tadka.jpg",
     
   },
 
