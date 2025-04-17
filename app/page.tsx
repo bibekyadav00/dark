@@ -38,7 +38,7 @@ export default function Home() {
                   Delicious food, great ambiance, and affordable prices!
                 </p> */}
                  <h1 className="text-xl font-bold text-white/80">
-                  By Delicious Kitchen
+                 Catered by: Delicious Kitchen
                 </h1>
                 <p className="text-lg text-white/80">
                   <span className="font-semibold">Open for all the students</span> at NIT Durgapur

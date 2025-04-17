@@ -29,7 +29,7 @@ export function Header() {
           {/* <Link href="/offers" className="text-sm font-medium transition-colors hover:text-primary">
             Offers
           </Link> */}
-          <Link href="/offers" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link href="/collection" className="text-sm font-medium transition-colors hover:text-primary">
             Collection
           </Link>
           <Link href="/feedback" className="text-sm font-medium transition-colors hover:text-primary">
@@ -76,7 +76,7 @@ export function Header() {
                 className="text-base font-medium transition-colors hover:text-primary"
                 onClick={() => setIsOpen(false)}
               >
-                Collection
+              Collection
               </Link>
               <Link
                 href="/feedback"
