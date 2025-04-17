@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "HALL-12 Canteen",
   description: "Delicious food, great ambiance, and affordable prices at HALL-12 Canteen",
-    generator: 'v0.dev'
+    generator: 'vivek'
 }
 
 export default function RootLayout({
