@@ -76,7 +76,7 @@ export function Header() {
                 className="text-base font-medium transition-colors hover:text-primary"
                 onClick={() => setIsOpen(false)}
               >
-                Offers
+                Collection
               </Link>
               <Link
                 href="/feedback"
