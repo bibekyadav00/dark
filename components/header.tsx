@@ -20,18 +20,18 @@ export function Header() {
           </span>
         </Link>
         <nav className="hidden md:flex gap-6">
-          <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
+          {/* <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
             Home
-          </Link>
+          </Link> */}
           <Link href="/menu" className="text-sm font-medium transition-colors hover:text-primary">
             Menu
           </Link>
-          {/* <Link href="/offers" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link href="/offers" className="text-sm font-medium transition-colors hover:text-primary">
             Offers
-          </Link> */}
-          <Link href="/collection" className="text-sm font-medium transition-colors hover:text-primary">
-            Collection
           </Link>
+          {/* <Link href="/collection" className="text-sm font-medium transition-colors hover:text-primary">
+            Collection
+          </Link> */}
           <Link href="/feedback" className="text-sm font-medium transition-colors hover:text-primary">
             Feedback
           </Link>
@@ -57,13 +57,13 @@ export function Header() {
               </Link>
             </div>
             <nav className="flex flex-col gap-4 px-7 mt-8">
-              <Link
+              {/* <Link
                 href="/"
                 className="text-base font-medium transition-colors hover:text-primary"
                 onClick={() => setIsOpen(false)}
               >
                 Home
-              </Link>
+              </Link> */}
               <Link
                 href="/menu"
                 className="text-base font-medium transition-colors hover:text-primary"
@@ -72,12 +72,19 @@ export function Header() {
                 Menu
               </Link>
               <Link
+                href="/offers"
+                className="text-base font-medium transition-colors hover:text-primary"
+                onClick={() => setIsOpen(false)}
+              >
+                Offers
+              </Link>
+              {/* <Link
                 href="/collection"
                 className="text-base font-medium transition-colors hover:text-primary"
                 onClick={() => setIsOpen(false)}
               >
               Collection
-              </Link>
+              </Link> */}
               <Link
                 href="/feedback"
                 className="text-base font-medium transition-colors hover:text-primary"
