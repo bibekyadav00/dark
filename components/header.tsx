@@ -26,8 +26,11 @@ export function Header() {
           <Link href="/menu" className="text-sm font-medium transition-colors hover:text-primary">
             Menu
           </Link>
-          <Link href="/offers" className="text-sm font-medium transition-colors hover:text-primary">
+          {/* <Link href="/offers" className="text-sm font-medium transition-colors hover:text-primary">
             Offers
+          </Link> */}
+          <Link href="/offers" className="text-sm font-medium transition-colors hover:text-primary">
+            Gallery
           </Link>
           <Link href="/feedback" className="text-sm font-medium transition-colors hover:text-primary">
             Feedback
