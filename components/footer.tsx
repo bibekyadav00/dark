@@ -11,8 +11,7 @@ export function Footer() {
               <span className="bg-gradient-to-r from-orange-400 to-red-600 text-transparent bg-clip-text">Canteen</span>
             </h3>
             <p className="text-sm text-muted-foreground">Fueling the engineering souls.</p>
-            {/* Social links can be added here in future */}
-          </div>
+            </div>
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Quick Links</h3>
             <nav className="flex flex-col space-y-2 text-sm">
