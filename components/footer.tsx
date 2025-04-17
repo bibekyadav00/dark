@@ -10,7 +10,7 @@ export function Footer() {
               <span className="bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text">HALL-12</span>{" "}
               <span className="bg-gradient-to-r from-orange-400 to-red-600 text-transparent bg-clip-text">Canteen</span>
             </h3>
-            <p className="text-sm text-muted-foreground">Good Food, Great Price, Clean Plate.</p>
+            <p className="text-sm text-muted-foreground">Fueling the engineering souls.</p>
             {/* Social links can be added here in future */}
           </div>
           <div className="space-y-4">

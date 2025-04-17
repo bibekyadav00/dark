@@ -125,7 +125,7 @@ const mostOrderedItems = [
   },
   {
     name: "Mutton Curry @SATURDAY",
-    description: "",
+    description: "Tender mutton cooked in a rich, flavorful gravy with traditional spices.",
     price: 120,
     image: "/images/mutton-curry.jpg",
     badge: "Weekend Special",
