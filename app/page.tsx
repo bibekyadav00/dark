@@ -41,7 +41,7 @@ export default function Home() {
                  Catered by: Delicious Kitchen
                 </h1>
                 <p className="text-lg text-white/80">
-                  <span className="font-semibold">Open for all the students</span> at NIT Durgapur
+                  <span className="font-semibold">Visit today,open for all the students</span> at NIT Durgapur
                 </p>
                
                 <div className="flex flex-col sm:flex-row gap-4">
