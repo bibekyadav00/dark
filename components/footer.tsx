@@ -48,7 +48,7 @@ export function Footer() {
                   <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                   <circle cx="12" cy="7" r="4"></circle>
                 </svg>
-                <p>Developed by: Bibek Yadav [CSE 6th sem]</p>
+                <p>Developed by: Bibek Yadav</p>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
@@ -66,7 +66,7 @@ export function Footer() {
                   <rect width="20" height="16" x="2" y="4" rx="2"></rect>
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </svg>
-                <p>bibekyadav00@gmail.com</p>
+                <p>bibekyadav00@gmail.com | 9056011913</p>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
@@ -84,7 +84,7 @@ export function Footer() {
                   <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path>
                   <line x1="6" x2="18" y1="17" y2="17"></line>
                 </svg>
-                <p>Caterer: Delicious Kitchen | 6296134063 , 7602928766</p>
+                <p>Caterer: Delicious Kitchen</p>
               </div>
             </div>
           </div>
