@@ -48,7 +48,7 @@ export function Footer() {
                   <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                   <circle cx="12" cy="7" r="4"></circle>
                 </svg>
-                <p>Developed by: Bibek Yadav @CS</p>
+                <p>Developed by: Bibek Yadav @CSE,6th sem</p>
               </div>
               {/* <div className="flex items-center space-x-2">
                 <svg
