@@ -90,6 +90,13 @@ export function MostOrderedCarousel() {
 
 const mostOrderedItems = [
   {
+    name: "Mutton Curry/Kosha @SATURDAY [2pcs]",
+    description: "Tender mutton cooked in a rich, flavorful gravy with traditional spices.",
+    price: 120,
+    image: "/images/mutton-curry.jpg",
+    badge: "Weekend Special",
+  },
+  {
     name: "Paneer Butter Masala",
     description: "Creamy and rich paneer dish cooked in a buttery tomato gravy",
     price: 50,
@@ -110,13 +117,7 @@ const mostOrderedItems = [
     image: "/images/chicken-kassa.jpg",
     badge: "Popular",
   },
-  {
-    name: "Mutton Curry @SATURDAY",
-    description: "Tender mutton cooked in a rich, flavorful gravy with traditional spices.",
-    price: 120,
-    image: "/images/mutton-curry.jpg",
-    badge: "Weekend Special",
-  },
+  
   {
     name: "Chilli Chicken 6pcs",
     description: "Spicy and tangy chicken starter with bell peppers and onions",

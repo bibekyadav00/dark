@@ -66,7 +66,7 @@ export function Footer() {
                   <rect width="20" height="16" x="2" y="4" rx="2"></rect>
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </svg>
-                <p>bibekyadav00@gmail.com</p>
+                <p>bibekyadav00@gmail.com | 9056011913</p>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
