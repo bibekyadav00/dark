@@ -18,7 +18,8 @@ export default function MenuPage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">Menu</h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-[700px]">
-            Currently serving with limited menu, full menu will be available soon.
+            Don't pay extra.Regarding prices/pieces,refer the menu prices below.
+            WHATSAPP for any complaints: 9056011913
             </p>
           </div>
         </div>
@@ -27,11 +28,11 @@ export default function MenuPage() {
       <section className="w-full py-12 md:py-16">
         <div className="container px-4 md:px-6">
           <Tabs defaultValue="pdf" className="w-full">
-            <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8">
+            {/* <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8"> */}
             <TabsTrigger value="pdf">Current Menu</TabsTrigger>
-              <TabsTrigger value="categories">Full Menu</TabsTrigger>
+              {/* <TabsTrigger value="categories">Full Menu</TabsTrigger> */}
               
-            </TabsList>
+            {/* </TabsList> */}
             <TabsContent value="pdf" className="w-full">
             <div className="grid gap-8">
                 {currentmenu.map((category) => (
@@ -103,7 +104,7 @@ const currentmenu = [
     name: "BREAKFAST",
     items: [
       { name: "Puri Sabzi (4 poori)", price: "20" },
-      { name: "Roti Sabzi ", price: "20" },
+      { name: "Roti Sabzi(2 Roti) ", price: "20" },
       { name: "Bread Omelette", price: "30" },
       { name: "Omelette (2 eggs)", price: "25" },
       { name: "Tea/Coffee/milk", price: "10" },
@@ -113,13 +114,10 @@ const currentmenu = [
   
   {
     name: "LUNCH",
-    items: [
+    items: [  
       
-      
-      { name: "Pappad (2pc)", price: "12" },
-      { name: "Green Salad", price: "20" },
-      { name: "Plain Rice", price: "30" },
-      { name: "Jeera Rice", price: "35" },
+          
+      { name: "Plain Long Rice", price: "30" },      
       { name: "Veg Meal (Miniket Rice)", price: "40" },
       { name: "Veg Meal (Basmati Long Rice)", price: "45" },
       { name: "Egg Meal (Miniket Rice)", price: "50" },
@@ -133,45 +131,29 @@ const currentmenu = [
     name: "SNACKS",
     items: [
       
-      { name: "Samosa (1pc)", price: "10" },
-      { name: "Kachori (1pc)", price: "10" },      
-      { name: "Veg Pakora (1 plate)", price: "20" },
-      { name: "Onion Pakora (1 plate)", price: "20" },
-      { name: "Paneer Pakora (1 plate)", price: "30" },
-      { name: "Chicken Pakora (1 plate)", price: "40" },
+      { name: "Samosa (1pc)", price: "10" },      
+      { name: "Chicken Pakora (1pc)", price: "10" },
+      { name: "Chicken Cutlet (1pc)", price: "20" },
       { name: "Fish Fingers (1pc)", price: "30" },
-      { name: "Chicken Lollipop (1pc)", price: "25" },
-      { name: "Veg Chowmein", price: "40" },
-      { name: "Egg Chowmein", price: "50" },
-      { name: "Chicken Chowmein", price: "55" },
-      { name: "Egg Chicken Chowmein", price: "65" },
-      { name: "Egg Roll (single egg)", price: "30" },
-      { name: "Paneer Roll", price: "35" },
-      { name: "Chicken Roll", price: "35" },
-      { name: "Egg Chicken Roll", price: "45" },
-      { name: "Chicken Cheese Roll", price: "55" },
-      { name: "Cheese Maggi", price: "35" },
-      { name: "Egg bhujia/Poached Maggi", price: "35" },
+      { name: "Chicken Lollipop (1pc)", price: "25" },  
       
     ],
   },
   {
     name: "DINNER",
-    items: [
-      
-      { name: "Veg Fried Rice", price: "60" },
-      { name: "Egg Fried Rice", price: "65" },
-      { name: "Chicken Fried Rice", price: "70" },
-      { name: "Mixed Fried Rice", price: "80" },
-      { name: "Chicken Bharta (half/full)", price: "50/90" },
-      { name: "Chicken Kasa (half/full)", price: "50/90" },
-      { name: "Butter Chicken (half/full)", price: "50/90" },
+    items: [      
+      { name: "Chicken Bharta (HALF 2pcs/FULL 4pcs)", price: "50/90" },
+      { name: "Chicken Kasa (HALF 2pcs/FULL 4pcs)", price: "50/90" },
+      { name: "Butter Chicken (HALF 2pcs/FULL 4pcs)", price: "50/90" },
+      { name: "Chilli Chicken Gravy(6pcs)", price: "80" },
+
       { name: "Dal Tadka/Dal Fry", price: "30" },
+      { name: "Mixed Veg", price: "30" },
       { name: "Butter Paneer Masala", price: "50" },
-      { name: "Chilli Paneer Gravy", price: "80" },
       { name: "Paneer Bhurji", price: "70" },
-      { name: "Mutton Kosha (2pcs) (Saturday)", price: "120" },
-      { name: "Mutton Curry(2pc) (Saturday)", price: "120" },
+
+      { name: "Mutton Kosha (2pcs) ", price: "120" },
+      { name: "Mutton Curry(2pcs) ", price: "120" },
       // { name: "Mutton Biryani (Saturday)", price: "130" },
     ],
   },
@@ -186,27 +168,26 @@ const currentmenu = [
       { name: "Egg Bharta (2pc)", price: "25" },
       { name: "Egg Bhujia/Bhurji", price: "30" },
       { name: "Boiled egg Bhurji", price: "30" },
-      { name: "Egg Masala", price: "25" },
-      { name: "Egg Tadka", price: "35" },
+      { name: "Egg Masala(2pc)", price: "25" },
+      { name: "Egg Tadka(2pc)", price: "35" },
     ],
   },
-  {
-    name: "DRINKS & DESSERTS",
-    items: [
-      { name: "COLD DRINKS", price: "MRP" },
-      { name: "Curd (Sweet, Plain)", price: "MRP" },
-      { name: "ICE-CREAM", price: "MRP" },
-      { name: "Lassi", price: "30" },      
-      { name: "Juices", price: "Varies" },
-      
-    ],
-  },
+  // {
+  //   name: "DRINKS & DESSERTS",
+  //   items: [
+  //     { name: "COLD DRINKS", price: "MRP" },
+  //     { name: "Curd (Sweet, Plain)", price: "MRP" },
+  //     { name: "ICE-CREAM", price: "MRP" },
+  //     { name: "Lassi", price: "30" },      
+  //     { name: "Juices", price: "Varies" },      
+  //   ],
+  // },
   {
     name: "ROTI & PARATHAS",
     items: [
-      { name: "Tawa Roti (100% Atta)", price: "5" },
-      { name: "Tawa Roti Butter", price: "8" },      
-      { name: "Plain Paratha (1pc)", price: "10" },     
+      { name: "Tawa Roti (100% Atta) (1pc)", price: "5" },
+      { name: "Tawa Roti Butter (1pc)", price: "8" },      
+      { name: "Paratha (1pc)", price: "10" },     
       
     ],
   },
