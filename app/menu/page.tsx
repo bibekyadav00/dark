@@ -28,11 +28,11 @@ export default function MenuPage() {
       <section className="w-full py-12 md:py-16">
         <div className="container px-4 md:px-6">
           <Tabs defaultValue="pdf" className="w-full">
-            {/* <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8"> */}
+            <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8">
             <TabsTrigger value="pdf">Current Menu</TabsTrigger>
               {/* <TabsTrigger value="categories">Full Menu</TabsTrigger> */}
               
-            {/* </TabsList> */}
+            </TabsList>
             <TabsContent value="pdf" className="w-full">
             <div className="grid gap-8">
                 {currentmenu.map((category) => (
