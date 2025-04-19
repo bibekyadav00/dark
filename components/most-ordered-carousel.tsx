@@ -90,12 +90,19 @@ export function MostOrderedCarousel() {
 
 const mostOrderedItems = [
   {
-    name: "Mutton Curry/Kosha @SATURDAY [2pcs]",
-    description: "Tender mutton cooked in a rich, flavorful gravy with traditional spices.",
-    price: 120,
-    image: "/images/mutton-curry.jpg",
-    badge: "Weekend Special",
+    name: "Butter Chicken (2pcs/4pcs)",
+    description: "Buttery chicken curry with a blend of traditional spices",
+    price: 50/90,
+    image: "/images/butter-chicken.jpg",
+    badge: "Popular",
   },
+  // {
+  //   name: "Mutton Curry/Kosha @SATURDAY [2pcs]",
+  //   description: "Tender mutton cooked in a rich, flavorful gravy with traditional spices.",
+  //   price: 120,
+  //   image: "/images/mutton-curry.jpg",
+  //   badge: "Weekend Special",
+  // },
   {
     name: "Paneer Butter Masala",
     description: "Creamy and rich paneer dish cooked in a buttery tomato gravy",
@@ -111,9 +118,9 @@ const mostOrderedItems = [
     
   },
   {
-    name: "Chicken Kasa",
+    name: "Chicken Kasa(2pcs/4pcs)",
     description: "Spicy chicken curry with a blend of traditional spices",
-    price: 50,
+    price: 50/90,
     image: "/images/chicken-kassa.jpg",
     badge: "Popular",
   },
@@ -133,12 +140,12 @@ const mostOrderedItems = [
     
   },
 
-  {
-    name: "Chicken Egg Fried Rice",
-    description: "Delicious fried rice with chicken and scrambled eggs",
-    price: 80,
-    image: "/images/chicken-egg-friedrice.jpg",
-  },
+  // {
+  //   name: "Chicken Egg Fried Rice",
+  //   description: "Delicious fried rice with chicken and scrambled eggs",
+  //   price: 80,
+  //   image: "/images/chicken-egg-friedrice.jpg",
+  // },
   
   
 ]
