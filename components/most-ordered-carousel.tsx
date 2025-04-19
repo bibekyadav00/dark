@@ -90,9 +90,9 @@ export function MostOrderedCarousel() {
 
 const mostOrderedItems = [
   {
-    name: "Butter Chicken (2pcs/4pcs)",
+    name: "Butter Chicken (4pcs)",
     description: "Buttery chicken curry with a blend of traditional spices",
-    price: 50/90,
+    price: 90,
     image: "/images/butter-chicken.jpg",
     badge: "Popular",
   },
@@ -118,9 +118,9 @@ const mostOrderedItems = [
     
   },
   {
-    name: "Chicken Kasa(2pcs/4pcs)",
+    name: "Chicken Kasa(4pcs)",
     description: "Spicy chicken curry with a blend of traditional spices",
-    price: 50/90,
+    price: 90,
     image: "/images/chicken-kassa.jpg",
     badge: "Popular",
   },
