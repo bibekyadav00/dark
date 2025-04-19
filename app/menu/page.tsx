@@ -124,6 +124,8 @@ const currentmenu = [
       { name: "Egg Meal (Basmati Long Rice)", price: "55" },
       { name: "Chicken Meal (Miniket Rice)", price: "60" },
       { name: "Chicken Meal (Basmati Long Rice)", price: "65" },
+      { name: "Fish Meal (Miniket Rice)", price: "65" },
+      { name: "Fish Meal (Basmati Long Rice)", price: "70" },
       
     ],
   },
