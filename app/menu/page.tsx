@@ -137,7 +137,9 @@ const currentmenu = [
       { name: "Chicken Pakora (1pc)", price: "10" },
       { name: "Chicken Cutlet (1pc)", price: "20" },
       { name: "Fish Fingers (1pc)", price: "30" },
-      { name: "Chicken Lollipop (1pc)", price: "25" },  
+      { name: "Chicken Lollipop (1pc)", price: "25" },
+      { name: "Veg Chowmein", price: "40" },
+      { name: "Egg Chowmein", price: "50" },  
       
     ],
   },
