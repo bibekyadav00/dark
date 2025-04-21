@@ -18,19 +18,16 @@ export default function FeedbackPage() {
   const [isSuccess, setIsSuccess] = useState(false)
   const [rating, setRating] = useState(0)
 
-    < div className = "space-y-3 pt-4" >
-      <div className="flex items-center gap-3">
-        <WhatsApp className="h-5 w-5 text-green-500" />
-        <a
-          href="https://wa.me/9056011913"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-300 hover:text-green-400 transition-colors"
-        >
-          +91 9056011913
-        </a>
-      </div>
-                      </div >
+  <Button asChild className="w-full bg-nonstop-green hover:bg-nonstop-green-dark btn-glow">
+  <a
+    href="https://wa.me/918945828056?text=I'm%20interested%20in%20enrolling%20for%20Non-stop%20coaching"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <WhatsApp className="mr-2 h-4 w-4" />
+    Enroll via WhatsApp
+  </a>
+</Button>
   const formSchema = z.object({
         rating: z.number().min(1, {
           message: "Please select a rating.",
