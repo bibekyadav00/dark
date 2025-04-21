@@ -18,21 +18,34 @@ export default function FeedbackPage() {
   const [isSuccess, setIsSuccess] = useState(false)
   const [rating, setRating] = useState(0)
 
+    < div className = "space-y-3 pt-4" >
+      <div className="flex items-center gap-3">
+        <WhatsApp className="h-5 w-5 text-green-500" />
+        <a
+          href="https://wa.me/9056011913"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-300 hover:text-green-400 transition-colors"
+        >
+          +91 9056011913
+        </a>
+      </div>
+                      </div >
   const formSchema = z.object({
-    rating: z.number().min(1, {
-      message: "Please select a rating.",
-    }),
-    foodQuality: z.number().min(1, {
-      message: "Please rate the food quality.",
-    }),
-    serviceQuality: z.number().min(1, {
-      message: "Please rate the service quality.",
-    }),
-    cleanliness: z.number().min(1, {
-      message: "Please rate the cleanliness.",
-    }),
-    comments: z.string().optional(),
-  })
+        rating: z.number().min(1, {
+          message: "Please select a rating.",
+        }),
+        foodQuality: z.number().min(1, {
+          message: "Please rate the food quality.",
+        }),
+        serviceQuality: z.number().min(1, {
+          message: "Please rate the service quality.",
+        }),
+        cleanliness: z.number().min(1, {
+          message: "Please rate the cleanliness.",
+        }),
+        comments: z.string().optional(),
+      })
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
