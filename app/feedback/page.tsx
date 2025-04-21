@@ -18,31 +18,22 @@ export default function FeedbackPage() {
   const [isSuccess, setIsSuccess] = useState(false)
   const [rating, setRating] = useState(0)
 
-  <Button asChild className="w-full bg-nonstop-green hover:bg-nonstop-green-dark btn-glow">
-  <a
-    href="https://wa.me/918945828056?text=I'm%20interested%20in%20enrolling%20for%20Non-stop%20coaching"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <WhatsApp className="mr-2 h-4 w-4" />
-    Enroll via WhatsApp
-  </a>
-</Button>
+
   const formSchema = z.object({
-        rating: z.number().min(1, {
-          message: "Please select a rating.",
-        }),
-        foodQuality: z.number().min(1, {
-          message: "Please rate the food quality.",
-        }),
-        serviceQuality: z.number().min(1, {
-          message: "Please rate the service quality.",
-        }),
-        cleanliness: z.number().min(1, {
-          message: "Please rate the cleanliness.",
-        }),
-        comments: z.string().optional(),
-      })
+    rating: z.number().min(1, {
+      message: "Please select a rating.",
+    }),
+    foodQuality: z.number().min(1, {
+      message: "Please rate the food quality.",
+    }),
+    serviceQuality: z.number().min(1, {
+      message: "Please rate the service quality.",
+    }),
+    cleanliness: z.number().min(1, {
+      message: "Please rate the cleanliness.",
+    }),
+    comments: z.string().optional(),
+  })
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -154,6 +145,17 @@ export default function FeedbackPage() {
             <CardContent className="p-6">
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                  {/* WhatsApp Button */}
+                  <div className="flex justify-center mb-4">
+                    <a
+                      href="https://wa.me/919056011913?text=Hello,%20I%20have%20a%20complaint%20regarding%20the%20service."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg shadow"
+                    >
+                      <svg ... /> Complaint via WhatsApp
+                    </a>
+                  </div>
                   <FormField
                     control={form.control}
                     name="rating"
