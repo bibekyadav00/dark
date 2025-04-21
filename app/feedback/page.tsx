@@ -16,8 +16,6 @@ export default function FeedbackPage() {
   const { toast } = useToast()
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
-  const [rating, setRating] = useState(0)
-
 
   const formSchema = z.object({
     rating: z.number().min(1, {
@@ -50,8 +48,7 @@ export default function FeedbackPage() {
     setIsSubmitting(true)
 
     try {
-      // Submit to Google Sheets
-      const response = await fetch(
+      await fetch(
         "https://script.google.com/macros/s/AKfycbw_aGMAwDnFAAEF2PAsivK-Q50RIMARMqNFyBG-73V8WAF-6J7aEQkdL8qxd48RwaQj/exec",
         {
           method: "POST",
@@ -59,7 +56,7 @@ export default function FeedbackPage() {
           headers: {
             "Content-Type": "application/json",
           },
-          mode: "no-cors", // Google Apps Script requires no-cors mode
+          mode: "no-cors",
         },
       )
 
@@ -67,7 +64,6 @@ export default function FeedbackPage() {
       toast({
         title: "Feedback Submitted",
         description: "Thank you for your valuable feedback!",
-        variant: "default",
       })
       form.reset()
     } catch (error) {
@@ -145,17 +141,28 @@ export default function FeedbackPage() {
             <CardContent className="p-6">
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                  {/* WhatsApp Button */}
-                  <div className="flex justify-center mb-4">
+
+                  {/* WhatsApp Complaint Button */}
+                  <div className="flex justify-center">
                     <a
                       href="https://wa.me/919056011913?text=Hello,%20I%20have%20a%20complaint%20regarding%20the%20service."
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center px-4 py-2 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg shadow"
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium shadow-md transition"
                     >
-                      <svg ... /> Complaint via WhatsApp
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-5 h-5"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M20.52 3.48A12.3 12.3 0 0012.02.4C5.73.4.69 5.43.69 11.72a11.58 11.58 0 001.6 5.93L.4 23.6l6.21-1.88a12.25 12.25 0 005.39 1.29h.01c6.29 0 11.32-5.03 11.32-11.31a11.3 11.3 0 00-3.81-8.22zM12.02 21c-1.58 0-3.13-.42-4.48-1.23l-.32-.19-3.68 1.11 1.17-3.59-.21-.37a9.6 9.6 0 01-1.45-5.14c0-5.31 4.33-9.63 9.99-9.63 2.57 0 4.99 1 6.8 2.82a9.48 9.48 0 012.8 6.8c0 5.3-4.32 9.62-9.62 9.62z" />
+                      </svg>
+                      Complaint via WhatsApp
                     </a>
                   </div>
+
+                  {/* Ratings */}
                   <FormField
                     control={form.control}
                     name="rating"
