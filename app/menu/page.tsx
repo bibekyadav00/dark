@@ -126,7 +126,7 @@ const currentmenu = [
       { name: "Puri Sabzi (4 poori)", price: "20" },
       { name: "Roti Sabzi(2 Roti) ", price: "20" },
       { name: "Bread Omelette", price: "30" },
-      { name: "Omelette (2 eggs)", price: "25" },
+      { name: "Omelette (2 eggs)", price: "20" },
       { name: "Tea/Coffee/milk", price: "10" },
       
     ],
