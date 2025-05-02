@@ -127,25 +127,25 @@ const currentmenu = [
       { name: "Roti Sabzi(2 Roti) ", price: "20" },
       { name: "Bread Omelette", price: "30" },
       { name: "Omelette (2 eggs)", price: "20" },
-      { name: "Tea/Coffee/milk", price: "10" },
+      { name: "Tea/Coffee/Milk", price: "10" },
       
     ],
   },
   
   {
-    name: "LUNCH",
+    name: "LUNCH (MEAL)",
     items: [  
       
           
-      { name: "Plain Long Rice", price: "30" },      
-      { name: "Veg Meal (Miniket Rice)", price: "40" },
-      { name: "Veg Meal (Basmati Long Rice)", price: "45" },
-      { name: "Egg Meal (Miniket Rice)", price: "50" },
-      { name: "Egg Meal (Basmati Long Rice)", price: "55" },
-      { name: "Chicken Meal (Miniket Rice)", price: "60" },
-      { name: "Chicken Meal (Basmati Long Rice)", price: "65" },
-      { name: "Fish Meal (Miniket Rice)", price: "65" },
-      { name: "Fish Meal (Basmati Long Rice)", price: "70" },
+           
+      { name: "Veg Meal ", price: "40" },
+      // { name: "Veg Meal (Basmati Rice)", price: "45" },
+      { name: "Egg Meal [1pc egg]", price: "50" },
+      // { name: "Egg Meal [1pc] (Basmati Rice)", price: "55" },
+      { name: "Chicken Meal [1pc] [extra pc:25] ", price: "60" },
+      // { name: "Chicken Meal [1pc] (Basmati Rice)", price: "65" },
+      { name: "Fish Meal [1pc] [extra pc:25] ", price: "65" },
+      // { name: "Fish Meal [1pc] (Basmati Rice)", price: "70" },
       
     ],
   },
@@ -155,6 +155,7 @@ const currentmenu = [
       
       { name: "Samosa (1pc)", price: "10" },      
       { name: "Chicken Pakora (1pc)", price: "10" },
+      { name: "Chicken Pakora Long (1pc)", price: "25" },
       { name: "Chicken Cutlet (1pc)", price: "20" },
       { name: "Fish Fingers (1pc)", price: "30" },
       { name: "Chicken Lollipop (1pc)", price: "25" },
@@ -176,8 +177,8 @@ const currentmenu = [
       { name: "Butter Paneer Masala", price: "50" },
       { name: "Paneer Bhurji", price: "70" },
 
-      { name: "Mutton Kosha (2pcs) ", price: "120" },
-      { name: "Mutton Curry(2pcs) ", price: "120" },
+      // { name: "Mutton Kosha (2pcs) ", price: "120" },
+      // { name: "Mutton Curry(2pcs) ", price: "120" },
       // { name: "Mutton Biryani (Saturday)", price: "130" },
     ],
   },
@@ -209,7 +210,7 @@ const currentmenu = [
   {
     name: "ROTI & PARATHAS",
     items: [
-      { name: "Tawa Roti (100% Atta) (1pc)", price: "5" },
+      { name: "Tawa Roti (1pc)", price: "5" },
       { name: "Tawa Roti Butter (1pc)", price: "8" },      
       { name: "Paratha (1pc)", price: "10" },     
       
