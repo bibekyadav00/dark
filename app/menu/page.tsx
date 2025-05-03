@@ -166,7 +166,8 @@ const currentmenu = [
   },
   {
     name: "DINNER",
-    items: [      
+    items: [     
+      { name: "Chicken Biryani (1pc chicken,1pc aloo)", price: "80" },
       { name: "Chicken Bharta (HALF 2pcs/FULL 4pcs)", price: "50/90" },
       { name: "Chicken Kasa (HALF 2pcs/FULL 4pcs)", price: "50/90" },
       { name: "Butter Chicken (HALF 2pcs/FULL 4pcs)", price: "50/90" },

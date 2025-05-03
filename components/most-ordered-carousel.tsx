@@ -111,9 +111,9 @@ const mostOrderedItems = [
     
   },
   {
-    name: "Chicken Biryani",
-    description: "Aromatic basmati rice layered with tender chicken pieces and spices",
-    price: 100,
+    name: "Chicken Biryani @SATURDAY night ",
+    description: "[1pc chckn,1pc aloo] Aromatic basmati rice layered with tender chicken pieces and spices",
+    price: 80,
     image: "/images/chicken-biryani.jpg",
     
   },
