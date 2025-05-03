@@ -124,7 +124,7 @@ const currentmenu = [
     name: "BREAKFAST",
     items: [
       { name: "Puri Sabzi (4 poori)", price: "20" },
-      { name: "Roti Sabzi(2 Roti) ", price: "20" },
+      { name: "Roti Sabzi(3 Roti) ", price: "20" },
       { name: "Bread Omelette", price: "30" },
       { name: "Omelette (2 eggs)", price: "20" },
       { name: "Tea/Coffee/Milk", price: "10" },
@@ -158,7 +158,7 @@ const currentmenu = [
       { name: "Chicken Pakora Long (1pc)", price: "25" },
       { name: "Chicken Cutlet (1pc)", price: "20" },
       { name: "Fish Fingers (1pc)", price: "30" },
-      { name: "Chicken Lollipop (1pc)", price: "25" },
+      // { name: "Chicken Lollipop (1pc)", price: "25" },
       { name: "Veg Chowmein", price: "40" },
       { name: "Egg Chowmein", price: "50" },  
       
