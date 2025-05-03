@@ -90,6 +90,13 @@ export function MostOrderedCarousel() {
 
 const mostOrderedItems = [
   {
+    name: "Chicken Biryani @SATURDAY night ",
+    description: "[1pc chckn,1pc aloo] Aromatic basmati rice layered with tender chicken pieces and spices",
+    price: 80,
+    image: "/images/chicken-biryani.jpg",
+    
+  },
+  {
     name: "Butter Chicken (4pcs)",
     description: "Buttery chicken curry with a blend of traditional spices",
     price: 90,
@@ -110,13 +117,7 @@ const mostOrderedItems = [
     image: "/images/paneer-butter-masala.jpg",
     
   },
-  {
-    name: "Chicken Biryani @SATURDAY night ",
-    description: "[1pc chckn,1pc aloo] Aromatic basmati rice layered with tender chicken pieces and spices",
-    price: 80,
-    image: "/images/chicken-biryani.jpg",
-    
-  },
+  
   {
     name: "Chicken Kasa(4pcs)",
     description: "Spicy chicken curry with a blend of traditional spices",
