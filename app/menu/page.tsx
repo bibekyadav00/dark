@@ -18,7 +18,7 @@ export default function MenuPage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">Menu</h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-[700px]">
-            Don't pay extra.Regarding prices/pieces,refer the menu prices below.
+            Don't pay extra.Regarding prices/pieces,refer the menu price`s below.
             WHATSAPP for any complaints: 9056011913
             </p>
           </div>
@@ -121,100 +121,101 @@ export default function MenuPage() {
 }
 const currentmenu = [
   {
-    name: "BREAKFAST",
+    name: "BREAKFAST & LIGHT",
     items: [
-      { name: "Puri Sabzi (4 poori)", price: "20" },
-      { name: "Roti Sabzi(3 Roti) ", price: "20" },
-      { name: "Bread Omelette", price: "30" },
-      { name: "Omelette (2 eggs)", price: "20" },
-      { name: "Tea/Coffee/Milk", price: "10" },
-      
-    ],
-  },
-  
-  {
-    name: "LUNCH (MEAL)",
-    items: [  
-      
-          
-           
-      { name: "Veg Meal ", price: "40" },
-      // { name: "Veg Meal (Basmati Rice)", price: "45" },
-      { name: "Egg Meal(1 egg)", price: "50" },
-      // { name: "Egg Meal [1pc] (Basmati Rice)", price: "55" },
-      { name: "Chicken Meal(1pc) [extra pc:25] ", price: "60" },
-      // { name: "Chicken Meal [1pc] (Basmati Rice)", price: "65" },
-      { name: "Fish Meal(1pc) [extra pc:25] ", price: "65" },
-      // { name: "Fish Meal [1pc] (Basmati Rice)", price: "70" },
-      
+      { name: "Puri Sabji (4 pcs)", price: "30" },
+      { name: "4 Roti Sabji", price: "50" },
+      { name: "Bread Omelette", price: "35" },
+      { name: "Aloo Paratha", price: "20" },
+      { name: "Paneer Paratha", price: "40" },
+      { name: "Sattu Paratha", price: "25" },
+      { name: "Chana Bhatura", price: "50" },
+      { name: "Bread Butter / Jam", price: "25" },
+      { name: "Boiled Egg (2 pcs)", price: "25" },
+      { name: "Uttapam", price: "45" },
+      { name: "Idli (2 pcs)", price: "40" },
+      { name: "Masala Dosa", price: "60" },
+      { name: "Plain Dosa", price: "50" },
+      { name: "Plain Maggi", price: "25" },
+      { name: "Veg Maggi", price: "35" },
+      { name: "Egg Maggi", price: "45" },
+      { name: "Veg Sandwich", price: "25" },
+      { name: "Grilled Veg Sandwich", price: "30" },
+      { name: "Omelette (Double Egg)", price: "30" },
     ],
   },
   {
-    name: "SNACKS",
+    name: "MEALS & RICE",
     items: [
-      
-      { name: "Samosa (1pc)", price: "10" },      
-      { name: "Chicken Pakora (1pc)", price: "10" },
-      { name: "Chicken Pakora Long (1pc)", price: "25" },
-      { name: "Chicken Cutlet (1pc)", price: "20" },
-      { name: "Fish Fingers (1pc)", price: "30" },
-      // { name: "Chicken Lollipop (1pc)", price: "25" },
-      { name: "Veg Chowmein", price: "40" },
-      { name: "Egg Chowmein", price: "50" },  
-      
+      { name: "Veg Meal (Rice, Dal, Sabji)", price: "60" },
+      { name: "Plain Rice", price: "40" },
+      { name: "Veg Biryani", price: "85" },
+      { name: "Egg Biryani", price: "60" },
+      { name: "Chicken Biryani", price: "80" },
+      { name: "Chicken Egg Biryani", price: "70" },
     ],
   },
   {
-    name: "DINNER",
-    items: [     
-      { name: "Chicken Biryani @SATURDAY night (1pc chicken,1pc aloo)", price: "80" },
-      { name: "Chicken Bharta (HALF 2pcs/FULL 4pcs)", price: "50/90" },
-      { name: "Chicken Kasa (HALF 2pcs/FULL 4pcs)", price: "50/90" },
-      { name: "Butter Chicken (HALF 2pcs/FULL 4pcs)", price: "50/90" },
-      { name: "Chilli Chicken Gravy(6pcs)", price: "80" },
-
-      { name: "Dal Tadka/Dal Fry", price: "30" },
-      { name: "Mixed Veg", price: "30" },
-      { name: "Butter Paneer Masala", price: "50" },
-      // { name: "Paneer Bhurji", price: "70" },
-
-      // { name: "Mutton Kosha (2pcs) ", price: "120" },
-      // { name: "Mutton Curry(2pcs) ", price: "120" },
-      // { name: "Mutton Biryani (Saturday)", price: "130" },
-    ],
-  },
-  
-  {
-    name: "FISH & EGG MAIN COURSE",
+    name: "CURRIES & MAIN",
     items: [
-      { name: "Fish Curry (1pc)", price: "25" },
-      { name: "Fish Fry (1pc)", price: "25" },     
-      { name: "Egg Curry (2pc)", price: "25" },
-      { name: "Egg Kossa (2pc)", price: "25" },
-      // { name: "Egg Bharta (2pc)", price: "25" },
-      // { name: "Egg Bhujia/Bhurji", price: "30" },
-      // { name: "Boiled egg Bhurji", price: "30" },
-      // { name: "Egg Masala(2pc)", price: "25" },
-      // { name: "Egg Tadka(2pc)", price: "35" },
+      { name: "Egg Curry (2 pcs)", price: "40" },
+      { name: "Chicken Curry (2 pcs)", price: "70" },
+      { name: "Fish Curry (2 pcs)", price: "60" },
+      { name: "Mutton Curry (2 pcs)", price: "150" },
+      { name: "Paneer Butter Masala", price: "75" },
+      { name: "Matar Paneer", price: "50" },
+      { name: "Palak Paneer", price: "70" },
+      { name: "Chana Masala", price: "50" },
+      { name: "Aloo Jeera", price: "50" },
+      { name: "Aloo Bhujia", price: "30" },
+      { name: "Dal Fry", price: "40" },
+      { name: "Dal Tadka", price: "40" },
     ],
   },
-  // {
-  //   name: "DRINKS & DESSERTS",
-  //   items: [
-  //     { name: "COLD DRINKS", price: "MRP" },
-  //     { name: "Curd (Sweet, Plain)", price: "MRP" },
-  //     { name: "ICE-CREAM", price: "MRP" },
-  //     { name: "Lassi", price: "30" },      
-  //     { name: "Juices", price: "Varies" },      
-  //   ],
-  // },
   {
     name: "ROTI & PARATHAS",
     items: [
-      { name: "Tawa Roti (1pc)", price: "5" },
-      { name: "Tawa Roti Butter (1pc)", price: "8" },      
-      { name: "Paratha (1pc)", price: "10" },     
-      
+      { name: "Roti (per pc)", price: "5" },
+      { name: "Plain Paratha", price: "15" },
+      { name: "Laccha Paratha", price: "25" },
+    ],
+  },
+  {
+    name: "SNACKS & ROLLS",
+    items: [
+      { name: "Samosa", price: "10" },
+      { name: "Aloo Chop", price: "10" },
+      { name: "Bread Pakoda", price: "12" },
+      { name: "Veg Roll", price: "40" },
+      { name: "Egg Roll", price: "50" },
+      { name: "Chicken Roll", price: "60" },
+      { name: "Chicken Egg Roll", price: "70" },
+    ],
+  },
+  {
+    name: "NOODLES & FRIED RICE",
+    items: [
+      { name: "Veg Chowmein", price: "50" },
+      { name: "Egg Chowmein", price: "60" },
+      { name: "Chicken Chowmein", price: "70" },
+      { name: "Veg Fried Rice", price: "50" },
+      { name: "Egg Fried Rice", price: "60" },
+      { name: "Chicken Fried Rice", price: "70" },
+    ],
+  },
+  {
+    name: "SPECIALS & GRAVY",
+    items: [
+      { name: "Paneer Chilli", price: "70" },
+      { name: "Chicken Chilli", price: "80" },
+      { name: "Veg Manchurian", price: "60" },
+    ],
+  },
+  {
+    name: "SOUPS",
+    items: [
+      { name: "Veg Soup", price: "40" },
+      { name: "Chicken Soup", price: "50" },
     ],
   },
   
