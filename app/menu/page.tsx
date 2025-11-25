@@ -356,7 +356,7 @@ const menuCategories = [
       { name: "Juices", price: "Varies" },
       { name: "Sweets", price: "Varies" },
       { name: "Chocolate pancake", price: "Varies" },
-      { name: "Banana pancake", price: "Varies" },
+      
     ],
   },
   {
