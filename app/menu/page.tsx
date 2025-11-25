@@ -225,7 +225,7 @@ const menuCategories = [
   {
     name: "BREAKFAST",
     items: [
-      { name: "Puri Sabzi (4 poori)", price: "20" },
+      
       { name: "Bread Omelette", price: "30" },
       { name: "Omelette (2 eggs)", price: "25" },
       { name: "Plain Maggi", price: "25" },
